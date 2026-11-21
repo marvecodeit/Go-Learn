@@ -3,5 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World")
+
+	var t any
+
+	fmt.Println(1 + 1)
+
+	fmt.Printf("Hello" + "World\n")
+	fmt.Println(3.14)
+	fmt.Println(true, false)
+	fmt.Printf("%+v\n", []int{1, 2, 3})
+	fmt.Printf("%+v\n", t)
 }
