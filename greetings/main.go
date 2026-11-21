@@ -3,11 +3,9 @@ package main
 import "fmt"
 
 func main() {
-
 	var t any
 
 	fmt.Println(1 + 1)
-
 	fmt.Printf("Hello" + "World\n")
 	fmt.Println(3.14)
 	fmt.Println(true, false)

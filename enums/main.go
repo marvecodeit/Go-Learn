@@ -16,7 +16,7 @@ type LogLevel int
 
 const (
 	LogError LogLevel = iota
-	LogWarn
+	logWarn
 	LogInfo
 	LogDebug
 	LogFatal

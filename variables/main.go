@@ -3,29 +3,25 @@ package main
 import "fmt"
 
 func main() {
-	var greeting string
-	greeting = "Hello World"
+	// var firstname = "Marvellous".      //One Variable Call Method
+	// var lastName = "Onyema"
+	// fmt.Println(firstname, lastName)
 
-	fmt.Println(greeting)
+	// var firstname string
+	// firstname = "Marvellous"
+	// var lastName string              //2nd Variable Call Method
+	// lastName = "Onyema"
+	// fmt.Println(firstname, lastName)
+
+	firstname, lastname, age := "Marvellous", "Onyema", 9
+	fmt.Println(firstname, lastname, age)
 
 	var count int
 	count = 10
 	fmt.Println(count)
 
-	var isRunning bool
-	isRunning = false || true
-	fmt.Println(isRunning)
-
-	firstname, lastname, score := "Marvellous", "Onyema", 8
-	fmt.Println(firstname, lastname, score)
-
-	var surname, othername string
-	surname = "Marvellous"
-	othername = "Ugochukwu"
-	fmt.Println(surname, othername)
-
-	email, age := "marvecodeit.dev", 8
-	fmt.Println(email, age)
+	email := "test@test.com"
+	fmt.Println(email)
 
 	var year = 2026
 	fmt.Println(year)

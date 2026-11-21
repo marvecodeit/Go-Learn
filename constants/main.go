@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 const (
-	Host = "127.0.0.1"
-	Port = ":8080"
-	User = "root"
+	HOST = "127.0.0.0.1"
+	PORT = ":8080"
+	USER = "root"
 )
 
 var (
@@ -19,6 +19,6 @@ func main() {
 	const pi float64 = 3.1415926
 	fmt.Println(pi)
 
-	const rate float32 = 5.2
+	const rate float32 = 5.7
 	fmt.Println(rate)
 }
